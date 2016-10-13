@@ -1,0 +1,25 @@
+/* サブメニューは初期状態では非表示にする */
+ul {
+  padding-left: 0;
+}
+.menu {
+  list-style: none;
+  max-width: 500px;
+}
+.menu > li {
+  background-color: gray;
+  color: white;
+  margin-bottom: 0.4em;
+}
+.menu > li > ul {
+  display: none;
+  list-style: none;
+}
+.menu > li > ul > li {
+  background-color: darkgreen;
+}
+a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
